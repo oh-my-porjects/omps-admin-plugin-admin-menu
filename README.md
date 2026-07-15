@@ -8,3 +8,5 @@
 - admin-server 启动和数据库迁移都会删除 `admin-menu` 的公共模块注册和项目引用。
 
 本仓库仅保留为已退役模块的历史 Git 身份，不再包含可部署插件、接口、页面配置或测试用例。不得重新添加 `plugin.yaml`、`AdminWebHint`、`admin-web.yaml` 或任何 V1-V3 运行协议。
+
+历史 `/api/admin-menu/*` 与 `/api/admin-meta/*` 路由已经删除，当前均不可用；本仓库不提供替代接口或兼容接口。
